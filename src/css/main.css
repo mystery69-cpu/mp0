@@ -1,1 +1,54 @@
 /* Your CSS here. */
+/* White page background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+/* Put card in the centre */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card styling */
+.card {
+  background: #f0f4ff; /* colored background */
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center; /* centers img, headings, link */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 350px;
+}
+
+/* Image */
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+/* Paragraph */
+.card p {
+  margin: 12px 0;
+  line-height: 1.4;
+}
+
+/* Link */
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #2563eb;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+.card a:hover {
+  background: #1d4ed8;
+}
